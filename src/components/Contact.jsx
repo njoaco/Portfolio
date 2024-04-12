@@ -1,14 +1,17 @@
 import React from "react";
+import Title from "./Title";
 
 function Contact(){
     return(
         <div className="flex flex-col mb-10 mx-auto">
             <div className="flex justify-center items-center">
+            
                 <form 
                 action="https://getform.io/f/lakmpkxa"
                 method="POST"
                 className="flex flex-col w-full md:w-7/12"
                 >
+                    <Title>Contáctame</Title>
                     <input style={{ fontFamily: 'DM Sans, sans-serif' }}
                         type="text"
                         name="name"
