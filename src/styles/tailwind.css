@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes floatAnimation {
+    0%, 100% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+  }
+  
+  .float-in-space {
+    animation: floatAnimation 4s ease-in-out infinite;
+  }
+  
+  .pokemon {
+    position: fixed;
+    right: 10px; /* Ajusta según el espacio que desees desde la esquina derecha */
+    bottom: 10px; /* Ajusta según el espacio que desees desde la esquina inferior */
+    width: 100px; /* O el tamaño que prefieras */
+    height: auto; /* Esto mantendrá la proporción de tu GIF */
+  }
+  
+  

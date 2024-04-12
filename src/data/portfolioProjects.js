@@ -23,4 +23,16 @@ export default [
         stack: ['C++', 'MIT App Inventor'],
         link: 'https://github.com/njoaco/BrazoRobotico-Arduino',
     },
+    {
+        title: 'Adopt.It (En Desarrollo)',
+        imgUrl: '/assets/adoptit.jpg',
+        stack: ['JavaScript', 'mySQL', 'React', 'Expo',],
+        link: 'https://github.com/njoaco/Adopt-It',
+    },
+    {
+        title: 'Orca IDE (En Desarrollo)',
+        imgUrl: '/assets/orcaide.jpg',
+        stack: ['Python', 'QML'],
+        link: 'https://github.com/njoaco/Orca-IDE',
+    },
 ]
