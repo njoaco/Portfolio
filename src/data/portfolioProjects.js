@@ -20,7 +20,7 @@ export default [
     {
         title: 'Brazo Robotico',
         imgUrl: '/assets/brazorobotico.jpg',
-        stack: ['C++', 'MIT App Inventor'],
+        stack: ['C++', 'Arduino', 'MIT App Inventor'],
         link: 'https://github.com/njoaco/BrazoRobotico-Arduino',
     },
     {
