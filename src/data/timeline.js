@@ -10,7 +10,7 @@ export default[
         year: 'Hoy en dia',
         title: 'Desarrollador FullStack Junior',
         duration: '1 Año',
-        details: 'Soy desarrollador Full Stack Junior desde hace un año. Desde que comencé en este campo, me he dedicado a perfeccionar mis habilidades tanto en el desarrollo de frontend como en backend, utilizando tecnologías y herramientas modernas. Aunque ya he logrado construir aplicaciones completas, desde la interfaz de usuario hasta la base de datos, estoy consciente de que el aprendizaje en tecnología nunca se detiene. Por eso, sigo capacitándome y actualizándome en las últimas tendencias y mejores prácticas del desarrollo web y software, para seguir creciendo profesionalmente y aportar cada vez más valor a los proyectos en los que trabajo.',
+        details: 'Soy desarrollador Full Stack Junior desde hace un año. Desde que comencé en este campo, me he dedicado a perfeccionar mis habilidades tanto en el desarrollo de frontend como en backend, utilizando tecnologías y herramientas modernas. Mi formación incluye haber completado un bootcamp en StreamBe, donde intensifiqué mi aprendizaje práctico en múltiples tecnologías clave. Aunque ya he logrado construir aplicaciones completas, desde la interfaz de usuario hasta la base de datos, estoy consciente de que el aprendizaje en tecnología nunca se detiene. Por eso, sigo capacitándome y actualizándome en las últimas tendencias y mejores prácticas del desarrollo web y software, para seguir creciendo profesionalmente y aportar cada vez más valor a los proyectos en los que trabajo.',
 
     },
     {
