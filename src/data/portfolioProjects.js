@@ -2,7 +2,7 @@ export default [
     {
         title: 'Sistema de Gestión de Farmacia',
         imgUrl: '/assets/farmacia.jpg',
-        stack: ['Java', 'mySQL'],
+        stack: ['Java', 'SQL'],
         desc: 'Software de gestión para farmacias, optimiza operaciones diarias con una interfaz intuitiva y funciones avanzadas',
         link: 'https://github.com/njoaco/Gestion-de-farmacia',
     },
@@ -30,7 +30,7 @@ export default [
     {
         title: 'Adopt.It (En Desarrollo)',
         imgUrl: '/assets/adoptit.jpg',
-        stack: ['JavaScript', 'mySQL', 'React', 'Expo',],
+        stack: ['JavaScript', 'SQL', 'React', 'Expo',],
         desc: 'Adopt.It es una plataforma móvil interactiva que simplifica la adopción de mascotas, usando JavaScript, React, MySQL y Expo para conectar a dueños y adoptantes eficazmente.',
         link: 'https://github.com/njoaco/Adopt-It',
     },
