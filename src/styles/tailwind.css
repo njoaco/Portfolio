@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes floatAnimation {
+    0%, 100% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+  }
+  
+  .float-in-space {
+    animation: floatAnimation 4s ease-in-out infinite;
+  }
+
+  .float-in-space-pic {
+    animation: floatAnimation 6s ease-in-out infinite;
+  }
+  
+  .pokemon {
+    position: fixed;
+    right: 10px; /* Ajusta según el espacio que desees desde la esquina derecha */
+    bottom: 10px; /* Ajusta según el espacio que desees desde la esquina inferior */
+    width: 100px; /* O el tamaño que prefieras */
+    height: auto; /* Esto mantendrá la proporción de tu GIF */
+  }
+
+  a:hover {
+    background-color: #888; /* Darker shade for better contrast on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+  
+  
