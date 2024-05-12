@@ -19,8 +19,7 @@ function App() {
     }, []);
 
     const handleThemeSwitch = () => {
-        // Esto alterna el tema entre claro y oscuro
-        setTheme(theme === 'dark' ? 'light' : 'dark');
+        setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
     };
 
     useEffect(() => {
